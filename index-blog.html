@@ -32,6 +32,10 @@
 				margin-top: 50px;
 				margin-bottom: 50px;
 			}
+			.choose-quiz {
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
 		</style>
 	</head>
 	<body>
@@ -87,9 +91,10 @@
 		<div class="even-loop">
 			<h2>Question:- What is even Loop?</h2>
 			<p>
-				<b>Answer:</b>An event loop is a programming construct that allows a program to handle multiple events or tasks simultaneously. It works by having the program keep track of all the events or
-				tasks that need to be processed, and then processing them one by one as they come in. This can be a very efficient way to handle a lot of events or tasks, as it prevents the program from
-				getting bogged down by having to process everything at once.
+				<b>Answer:</b> <br />
+				An event loop is a programming construct that allows a program to handle multiple events or tasks simultaneously. It works by having the program keep track of all the events or tasks that need
+				to be processed, and then processing them one by one as they come in. This can be a very efficient way to handle a lot of events or tasks, as it prevents the program from getting bogged down
+				by having to process everything at once.
 			</p>
 		</div>
 		<div class="quiz-timer">
@@ -107,12 +112,14 @@
 				<b>Step:4 </b> When the count variable exceeds 60 seconds, the function produces a pulse effect, indicating that time is running out.
 			</p>
 		</div>
-		<div>
-			<h2>Question:- What is even Loop?</h2>
+		<div class="choose-quiz">
+			<h2>Explne chooseQuiz?</h2>
 			<p>
-				<b>Answer:</b>An event loop is a programming construct that allows a program to handle multiple events or tasks simultaneously. It works by having the program keep track of all the events or
-				tasks that need to be processed, and then processing them one by one as they come in. This can be a very efficient way to handle a lot of events or tasks, as it prevents the program from
-				getting bogged down by having to process everything at once.
+				<b>Answer:</b> <br />
+				The givenAns parameter represents the answer option that the user has selected for that particular quiz question. The function first checks if the answers array already contains an object with
+				the same id as the current quiz question. If it does, then it replaces the existing object in the array with the new one that includes the givenAns property. If the id does not exist in the
+				answers array, then the function adds a new object to the array, which includes the id of the current quiz question and the givenAns property. Finally, the function calls displayAnswers()
+				function, which is responsible for displaying the current answers for all the quiz questions in the answersContainer element.
 			</p>
 		</div>
 	</body>
