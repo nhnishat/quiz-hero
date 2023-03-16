@@ -24,6 +24,14 @@
 				margin-top: 50px;
 				margin-bottom: 50px;
 			}
+			.even-loop {
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+			.quiz-timer {
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
 		</style>
 	</head>
 	<body>
@@ -75,6 +83,29 @@
 					<td>Both clients and servers can read and write the cookies</td>
 				</tr>
 			</table>
+		</div>
+		<div class="even-loop">
+			<h2>Question:- What is even Loop?</h2>
+			<p>
+				<b>Answer:</b>An event loop is a programming construct that allows a program to handle multiple events or tasks simultaneously. It works by having the program keep track of all the events or
+				tasks that need to be processed, and then processing them one by one as they come in. This can be a very efficient way to handle a lot of events or tasks, as it prevents the program from
+				getting bogged down by having to process everything at once.
+			</p>
+		</div>
+		<div class="quiz-timer">
+			<h2>Explne quizTimer?</h2>
+			<p>
+				<b>Answer:</b> <br />
+
+				<b>Step:1 </b> The quizTimer function handles the countdown timer functionality for quizzes. Dismiss takes a single argument, a Boolean value indicating whether the timer should be dismissed.
+				<br />
+				<b>Step:2 </b> If the dismiss argument is true, the clearInterval method is called on the timer and the function returns. This effectively stops the timer. <br />
+				<b>Step:3 </b> If the dismiss argument is false, the function creates an interval that runs every 1000 milliseconds (1 second). During this interval, the function updates the timer display by
+				incrementing the count variable, <br />
+				converting to minutes and seconds, and updating the corresponding element.
+				<br />
+				<b>Step:4 </b> When the count variable exceeds 60 seconds, the function produces a pulse effect, indicating that time is running out.
+			</p>
 		</div>
 		<div>
 			<h2>Question:- What is even Loop?</h2>
