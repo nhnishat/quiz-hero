@@ -20,15 +20,15 @@
 			th {
 				border: 2px solid black;
 			}
-			/* .second {
+			.second {
 				margin-top: 50px;
 				margin-bottom: 50px;
-			} */
+			}
 		</style>
 	</head>
 	<body>
 		<div>
-			<h2>Question:- What difference between map foreach filter find?</h2>
+			<h2>Question:- What difference between .forEach() ,.map() ,.filter() and .find() methods?</h2>
 			<p><b>Answer:</b> There are differences between the .forEach() .map() .filter() and .find() methods. Below are brief explanations of each method:-</p>
 			<table>
 				<tr>
@@ -47,6 +47,32 @@
 					<td>
 						The find() method returns the value of the first element in the array that meets the provided testing function. If no element meets the provided testing function, undefined is returned.
 					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="second">
+			<h2>Question:- What difference between Local Storage, Session Storage, And Cookies?</h2>
+			<p><b>Answer:</b> There are differences between Local Storage, Session Storage, And Cookies. Below are brief explanations of each Storage:-</p>
+			<table>
+				<tr>
+					<th>Local Storage</th>
+					<th>Session Storage</th>
+					<th>Cookies</th>
+				</tr>
+				<tr>
+					<td>The storage capacity of local storage is 5MB/10MB</td>
+					<td>The storage capacity of session storage is 5MB</td>
+					<td>The storage capacity of Cookies is 4KB</td>
+				</tr>
+				<tr>
+					<td>As it is not session-based, it must be deleted via javascript or manually</td>
+					<td>It’s session-based and works per window or tab. This means that data is stored only for the duration of a session, i.e., until the browser (or tab) is closed</td>
+					<td>Cookies expire based on the setting and working per tab and window</td>
+				</tr>
+				<tr>
+					<td>The client can only read local storage</td>
+					<td>The client can only read local storage</td>
+					<td>Both clients and servers can read and write the cookies</td>
 				</tr>
 			</table>
 		</div>
