@@ -5,8 +5,50 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Question</title>
+		<style>
+			body {
+				width: 80%;
+				margin: auto;
+			}
+			table {
+				border-collapse: collapse;
+			}
+			td {
+				padding: 10px;
+			}
+			td,
+			th {
+				border: 2px solid black;
+			}
+			/* .second {
+				margin-top: 50px;
+				margin-bottom: 50px;
+			} */
+		</style>
 	</head>
 	<body>
-		<h1>This is Question Section</h1>
+		<div>
+			<h2>Question:- What difference between map foreach filter find?</h2>
+			<p><b>Answer:</b> There are differences between the .forEach() .map() .filter() and .find() methods. Below are brief explanations of each method:-</p>
+			<table>
+				<tr>
+					<th>Map()</th>
+					<th>forEach()</th>
+					<th>filter()</th>
+					<th>find()</th>
+				</tr>
+				<tr>
+					<td>
+						The map() method creates a new array with the results of calling a function on every element in the calling array. The map() method calls the provided function once for each element in an
+						array in order. It doesn’t change the original array.
+					</td>
+					<td>The forEach() method calls a function once for each element in an array in order.</td>
+					<td>The filter() method creates a new array filled with all array elements that pass the test used by the provided function. Filter() does not change the original array.</td>
+					<td>
+						The find() method returns the value of the first element in the array that meets the provided testing function. If no element meets the provided testing function, undefined is returned.
+					</td>
+				</tr>
+			</table>
+		</div>
 	</body>
 </html>
